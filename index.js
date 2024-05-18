@@ -25,17 +25,15 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1168135681047023657')//
     .setType('STREAMING')//
-    .setURL('https://www.youtube.com/watch?v=crT_ySezWhU') //
-    .setState('Python <3')//
+    .setState('Est 2020 <3')//
     .setName('L')//
-    .setDetails(`Syntax 🥀`)//
+    .setDetails(`Nightmare 🥀`)//
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1165517135699771394/1189170428606955540/ezgif-3-e783e81a92.gif?ex=6649e4c3&is=66489343&hm=f5cd0827e2372444a4147e2e67dc93df73306029254195a848f611e645930538&') // Large Image 
-    .setAssetsLargeText('Cyber Enthusiast') //Text when you hover the Large image
+    .setAssetsLargeText('Nightmare') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1165517135699771394/1176931203283177543/verified-logo.gif?ex=66498859&is=664836d9&hm=262af5b9add1f029af3b112b7236248527fbbc8fbfb9e68ebd27c147d2367193&') // Small image
-    .setAssetsSmallText('BLACK TICK') //Text when you hover the Small image
-    .addButton('SUBSCRIBE','https://www.youtube.com/@AuraCodez/')// button 1
-.addButton('JOIN','https://discord.gg/hGZHsDT43q');// button 2
+    .setAssetsSmallText('NM') //Text when you hover the Small image
+.addButton('JOIN','https://discord.gg/xnightmare');// button 2
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
