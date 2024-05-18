@@ -26,7 +26,7 @@ client.on('ready', async () => {
     .setApplicationId('1168135681047023657')//
     .setType('STREAMING')//
     .setState('Est 2020 <3')//
-    .setName('L')//
+    .setName('Nightmare 🥀')//
     .setDetails(`Nightmare 🥀`)//
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1165517135699771394/1189170428606955540/ezgif-3-e783e81a92.gif?ex=6649e4c3&is=66489343&hm=f5cd0827e2372444a4147e2e67dc93df73306029254195a848f611e645930538&') // Large Image 
