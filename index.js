@@ -26,8 +26,8 @@ client.on('ready', async () => {
     .setApplicationId('1168135681047023657')//
     .setType('PLAYING')//
     .setState('Est 2020')//
-    .setName('Nightmare 🥀')//
-    .setDetails(`Nightmare 🥀`)//
+    .setName('A 🥀')//
+    .setDetails(`B 🥀`)//
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1165517604610392115/1170298078239137792/ezgif-3-e783e81a92.gif?ex=664bc4c4&is=664a7344&hm=c60e09daf14d7b6b93b2966bf61acc7dacf361cf50cde45c4389a20211f52e5f&') // Large Image 
     .setAssetsLargeText('Nightmare Community') //Text when you hover the Large image
@@ -36,7 +36,7 @@ client.on('ready', async () => {
 .addButton('JOIN','https://discord.gg/xnightmare');// button 2
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
 
   let prevTime = null;
  // Update every second
