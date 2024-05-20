@@ -24,7 +24,7 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1168135681047023657')//
-    .setType('STREAMING')//
+    .setType('PLAYING')//
     .setState('Est 2020')//
     .setName('Nightmare 🥀')//
     .setDetails(`Nightmare 🥀`)//
