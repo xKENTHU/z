@@ -15,7 +15,7 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1168135681047023657')//
+    .setApplicationId('1168051322747113542')//
     .setType('PLAYING')//
     .setState('Est 2020')//
     .setName('Nightmare 🥀')//
