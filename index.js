@@ -29,9 +29,9 @@ client.on('ready', async () => {
     .setName('Nightmare 🥀')//
     .setDetails(`Nightmare 🥀`)//
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1165517135699771394/1189170428606955540/ezgif-3-e783e81a92.gif?ex=6649e4c3&is=66489343&hm=f5cd0827e2372444a4147e2e67dc93df73306029254195a848f611e645930538&') // Large Image 
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1165517604610392115/1170298078239137792/ezgif-3-e783e81a92.gif?ex=664bc4c4&is=664a7344&hm=c60e09daf14d7b6b93b2966bf61acc7dacf361cf50cde45c4389a20211f52e5f&') // Large Image 
     .setAssetsLargeText('Nightmare Community') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1165517135699771394/1176931203283177543/verified-logo.gif?ex=66498859&is=664836d9&hm=262af5b9add1f029af3b112b7236248527fbbc8fbfb9e68ebd27c147d2367193&') // Small image
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1165517135699771394/1176931203283177543/verified-logo.gif?ex=664c2b59&is=664ad9d9&hm=a1795d93a11bf23480b35809fff54e1572fe84ee56e6a8361cb1d4d376c9a94a&') // Small image
     .setAssetsSmallText('NM') //Text when you hover the Small image
 .addButton('JOIN','https://discord.gg/xnightmare');// button 2
 
